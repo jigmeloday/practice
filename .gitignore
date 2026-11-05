@@ -27,3 +27,12 @@
 
 # Dotenv and similar local-only files
 *.local
+.env
+.env.*
+!.env.example
+
+# generated
+/generated/prisma
+
+# next.js build output
+.next/
